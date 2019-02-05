@@ -1,0 +1,75 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__name {
+    height: 50%;
+    text-align: center;
+    color: brown;
+    font-size: 100px;
+    margin-right: 5%;
+}
+
+.header__logo {}
+
+.header__logo img {}
+
+body {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.main {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nicknames {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nicknames > div {
+    margin: 5px;
+}
+
+.valid {
+    color: red;
+}
+
+.play {
+    font-size: 40px;
+}
+
+.footer {
+    background: gray;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

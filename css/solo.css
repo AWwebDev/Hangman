@@ -1,0 +1,135 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__name {
+    height: 100%;
+    text-align: center;
+    color: brown;
+    font-size: 3em;
+}
+
+body {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.main {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+.nickname{
+/*    color: red;*/
+    font-size: 25px;
+}
+
+.hangman {
+    color: blue;
+    height: 446px;
+    width: 311px;
+}
+
+.hangman img {
+    height: 100%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.word {
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.word__block {
+    margin: 5px;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.letters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.letters__used {
+    color: red;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stat__word {
+    margin: 5px 0;
+    text-decoration: line-through;
+}
+
+.stat__text {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.buttons__menu {
+}
+
+.footer {
+    background: gray;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
